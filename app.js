@@ -127,7 +127,7 @@ function togglePause() {
         clearInterval(timerInterval);  // Pausar el cronómetro
     } else {
         startTime = Date.now() - pausedTime;  // Ajustar el tiempo para continuar desde donde se dejó
-        timerInterval = setInterval(updateTimerDisplay, 100);  // Reanudar el cronómetro
+        timerInterval = setInterval(updateTimerDisplay, 100);  // Reanudar el cronómetro, tenia el problema de que si se pausaba se reinciaba el contador creo ya lo arregle xd
     }
 }
 

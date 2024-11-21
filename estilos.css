@@ -1,0 +1,32 @@
+#game-area{
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    height: 600px;
+    position: relative;
+    width: 600px;
+}
+
+.personaje{
+    height: 70px;
+    position: absolute;
+    width: 70px;
+}
+
+#player {
+    background-color: pink;
+    background-image: url('./justin.jpg'); /* Asegúrate de que la ruta es correcta */
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+/* Estilo base de Didi */
+#didi {
+    background-image: url('./didi.jpg'); /* Ruta a la imagen normal */
+    background-size: cover;
+    background-color: #000;
+}
+
+h1{
+    text-align: center;
+}
